@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Jesus Ayala
+# 👋 Hi, I'm Jay
 
 **IT Manager | AI Enthusiast | Cross-Platform Utility Developer**  
 📍 NYC, USA
