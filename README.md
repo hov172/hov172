@@ -33,6 +33,7 @@ I build tools that make IT support and administration faster, smarter, and easie
   - Printer & WiFi utilities  
   - Bookmark backup/restore tools  
   - Application signing and notarization (MacOS)
+  - AI Developer
 
 ---
 
