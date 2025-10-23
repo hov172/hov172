@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jay
 
-**IT Manager | IT Enthusiast | AI Cross-Platform Utility Developer**  
+**IT Manager | IT Enthusiast **  
 📍 NYC, USA
 
 I build tools that make IT support and administration faster, smarter, and easier — from Wi-Fi diagnostics and network printer utilities to automated browser bookmark backups. My work focuses on practical, reliable solutions for both Windows and macOS environments.
