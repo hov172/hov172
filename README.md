@@ -39,7 +39,8 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 ## 🌐 Connect With Me
 
-- 💼 [GitHub](https://github.com/hov172)
+-  [GitHub](https://github.com/hov172)
+-  [PowerShell Gallery](https://www.powershellgallery.com/profiles/hov172)
 - 📨 Slack: **@Hov172**
 - 🕹️ Discord: **Jay172_**
 - 📧 *Contact via GitHub issues or discussions*
