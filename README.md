@@ -43,6 +43,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 -  [PowerShell Gallery](https://www.powershellgallery.com/profiles/hov172)
 - 📨 Slack: **@Hov172**
 - 🕹️ Discord: **Jay172_**
+- [LinkedIn](https://www.linkedin.com/in/jesus-a-785bb616?trk=people-guest_people_search-card)
 - 📧 *Contact via GitHub issues or discussions*
 
 ---
