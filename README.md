@@ -20,7 +20,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Oct 11, 2025 |
 | [Win-Bookmarks-Backup-Tool](https://github.com/hov172/Win-Bookmarks-Backup-Tool) | Avalonia-based Windows app for bookmark management and automation. | Windows | Oct 10, 2025 |
 | [Signaro](https://github.com/hov172/Signaro) | macOS app for signing, notarizing, and analyzing .pkg/.app/.mobileconfig files. | macOS | Nov 9th, 2025 |
-| [BurnToast Notification Studio](https://github.com/hov172/Signaro](https://github.com/hov172/BurnToast_Notification_Studio)) | A visual notification designer and testing tool for the [BurntToast](https://github.com/Windos/BurntToast) PowerShell module. Design notifications with a modern GUI, test them instantly, then copy the PowerShell command to use in your scripts! | Windows | Nov 10th, 2025 |
+| [BurnToast Notification Studio](https://github.com/hov172/BurnToast_Notification_Studio) | A visual notification designer and testing tool for the [BurntToast](https://github.com/Windos/BurntToast) PowerShell module. Design notifications with a modern GUI, test them instantly, then copy the PowerShell command to use in your scripts! | Windows | Nov 10th, 2025 |
 ---
 
 ## 🧰 Tech Stack & Skills
