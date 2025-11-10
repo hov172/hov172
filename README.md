@@ -25,7 +25,6 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 ## 🧰 Tech Stack & Skills
 
-- **Languages & Scripting:** PowerShell, Bash, AppleScript, Python (basic)
 - **Platforms:** macOS, Windows, cross-platform UI frameworks
 - **Specialties:**  
   - Network troubleshooting & diagnostics  
