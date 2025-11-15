@@ -34,7 +34,6 @@ I build tools that make IT support and administration faster, smarter, and easie
   - Application signing and notarization (MacOS)
 
 ---
-
 ## 🌐 Connect With Me
 
 - [GitHub](https://github.com/hov172)
@@ -43,7 +42,10 @@ I build tools that make IT support and administration faster, smarter, and easie
 - 🕹️ Discord: **Jay172_**
 - [LinkedIn](https://www.linkedin.com/in/jesus-a-785bb616?trk=people-guest_people_search-card)
 - 🐦 [Twitter / X (@AyalaSolutions)](https://twitter.com/AyalaSolutions)
+- <a href="https://bsky.app/profile/ayalasolutions.bsky.social"><img src="https://raw.githubusercontent.com/bluesky-social/social-app/main/assets/logo.png" width="20" alt="Bluesky Logo"></a> [@AyalaSolutions](https://bsky.app/profile/ayalasolutions.bsky.social)
 - 📧 *Contact via GitHub issues or discussions*.
+
+
 
 ---
 
