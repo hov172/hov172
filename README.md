@@ -27,8 +27,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 - **Platforms:** macOS, Windows, cross-platform UI frameworks
 - **Specialties:**  
-  - Network troubleshooting & diagnostics  
-  - Automation scripting  
+  - Network troubleshooting & diagnostics   
   - Printer & WiFi utilities  
   - Bookmark backup/restore tools  
   - Application signing and notarization (MacOS)
