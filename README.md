@@ -23,7 +23,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [PS_WI-FI_Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer) | PowerShell WiFi analyzer app for diagnostics and performance optimization. | PowerShell | July 25th, 2026 |
 | [WindowsNetworkPrinterSharedUtility](https://github.com/hov172/WindowsNetworkPrinterSharedUtility) | Network Printer Installer with SMB & IPP support and Material Design UI. | Windows | Oct 17, 2025 |
 | [MacOS-Bookmarks-Backup-Tool](https://github.com/hov172/MacOS-Bookmarks-Backup-Tool) | Comprehensive macOS bookmark backup & restore tool with GUI and CLI. | macOS | Jul 23, 2026 |
-| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows WiFi report generator for IT support and troubleshooting. | Windows | Oct 11, 2025 |
+| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows WiFi report generator for IT support and troubleshooting. | Windows | Jul 29th, 2026 |
 
 ---
 
