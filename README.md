@@ -10,7 +10,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
-| [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | May 2026 |
+| [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Aug 9th 2026 |
 | [Signaro](https://github.com/hov172/Signaro) | macOS app for signing, notarizing, and analyzing .pkg/.app/.mobileconfig files. | macOS | Jul 5th, 2026 |
 | [Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM) | Native SwiftUI client for SimpleMDM (macOS & iOS). Provides a full operator-focused fleet dashboard, device management, assignment groups, app catalog, profile management, scripts, API explorer, and optional MunkiReport enrichment. | macOS / iOS / SwiftUI | Jul 12th, 2026 |
 | [SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) | MCP (Model Context Protocol) server for SimpleMDM. Query and manage your fleet using natural language through Claude Desktop, Claude Code, or any MCP-compatible client. Supports ~115 tools covering the full SimpleMDM API surface with read-only safety defaults and optional write actions. | TypeScript / Node.js | Aug 9th 2026 |
