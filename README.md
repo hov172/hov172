@@ -2,7 +2,7 @@
 **IT Manager | IT Enthusiast**  
 📍 NYC, USA
 
-I build tools that make IT support and administration faster, smarter, and easier — from Wi-Fi diagnostics and network printer utilities to automated browser bookmark backups, MDM integrations, and cross-platform authentication tools. My work focuses on practical, reliable solutions for Windows, macOS, and iOS environments.
+I build tools that make IT support and administration faster, smarter, and easier — from Wi-Fi diagnostics and network printer utilities to automated browser bookmark backups, MDM integrations, display troubleshooting, and cross-platform authentication tools. My work focuses on practical, reliable solutions for Windows, macOS, and iOS environments.
 
 ---
 
@@ -11,6 +11,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
 | [2fast-desktop](https://github.com/hov172/2fast-desktop) | Cross-platform 2FA authenticator for Windows and macOS built on Uno Platform. Features encrypted shared vaults, TOTP/OCRA authentication, Deepnet MobileID imports, camera and desktop QR scanning, Touch ID/Windows Hello biometric unlock, backup/restore, and WebDAV support. | Windows / macOS / C# / Uno Platform | Sept 15th, 2026 |
+| [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Sept 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Aug 29th, 2026 |
 | [Signaro](https://github.com/hov172/Signaro) | macOS app for signing, notarizing, and analyzing .pkg/.app/.mobileconfig files. | macOS | Sept 2nd, 2026 |
 | [Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM) | Native SwiftUI client for SimpleMDM (macOS & iOS). Provides a full operator-focused fleet dashboard, device management, assignment groups, app catalog, profile management, scripts, API explorer, and optional MunkiReport enrichment. | macOS / iOS / SwiftUI | Jul 12th, 2026 |
@@ -24,7 +25,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [PS_WI-FI_Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer) | PowerShell WiFi analyzer app for diagnostics and performance optimization. | PowerShell | July 25th, 2026 |
 | [WindowsNetworkPrinterSharedUtility](https://github.com/hov172/WindowsNetworkPrinterSharedUtility) | Network Printer Installer with SMB & IPP support and Material Design UI. | Windows | Oct 17, 2025 |
 | [MacOS-Bookmarks-Backup-Tool](https://github.com/hov172/MacOS-Bookmarks-Backup-Tool) | Comprehensive macOS bookmark backup & restore tool with GUI and CLI. | macOS | Jul 23, 2026 |
-| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows\Macos WiFi report generator for IT support and troubleshooting. | Windows, Macos | Sept 17th, 2026 |
+| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Sept 17th, 2026 |
 
 ---
 
@@ -34,7 +35,9 @@ I build tools that make IT support and administration faster, smarter, and easie
 - **Development:** SwiftUI, C#, Uno Platform, TypeScript / Node.js, PHP / Python, PowerShell
 - **Specialties:**
   - Network troubleshooting & diagnostics
-  - Printer & WiFi utilities
+  - Wi-Fi diagnostics & performance analysis
+  - Display troubleshooting & diagnostics
+  - Printer & network utilities
   - Bookmark backup/restore tools
   - Application signing and notarization (macOS)
   - MDM platform tooling (SimpleMDM / SwiftUI)
