@@ -8,6 +8,8 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 ## 🛠️ My Public Repositories
 
+<!-- REPOS:START -->
+
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
 | [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Sept 29th, 2026 |
@@ -26,6 +28,8 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [Win-Bookmarks-Backup-Tool](https://github.com/hov172/Win-Bookmarks-Backup-Tool) | Avalonia-based Windows app for bookmark management and automation. | Windows | Dec 8, 2025 |
 | [BurnToast Notification Studio](https://github.com/hov172/BurnToast_Notification_Studio) | A visual notification designer and testing tool for the [BurntToast](https://github.com/Windos/BurntToast) PowerShell module. Design notifications with a modern GUI, test them instantly, then copy the PowerShell command to use in your scripts! | Windows | Nov 19, 2025 |
 | [WindowsNetworkPrinterSharedUtility](https://github.com/hov172/WindowsNetworkPrinterSharedUtility) | Network Printer Installer with SMB & IPP support and Material Design UI. | Windows | Oct 17, 2025 |
+
+<!-- REPOS:END -->
 
 ---
 
