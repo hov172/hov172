@@ -12,8 +12,8 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
+| [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 10, 2026 |
 | [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Oct 6, 2026 |
-| [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 5, 2026 |
 | [SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) | MCP (Model Context Protocol) server for SimpleMDM. Query and manage your fleet using natural language through Claude Desktop, Claude Code, or any MCP-compatible client. Supports ~115 tools covering the full SimpleMDM API surface with read-only safety defaults and optional write actions. | TypeScript / Node.js | Oct 5, 2026 |
 | [2fast-desktop](https://github.com/hov172/2fast-desktop) | Cross-platform 2FA authenticator for Windows and macOS built on Uno Platform. Features encrypted shared vaults, TOTP/OCRA authentication, Deepnet MobileID imports, camera and desktop QR scanning, Touch ID/Windows Hello biometric unlock, backup/restore, and WebDAV support. | Windows / macOS / C# / Uno Platform | Sep 30, 2026 |
 | [Signaro](https://github.com/hov172/Signaro) | macOS app for signing, notarizing, and analyzing .pkg/.app/.mobileconfig files. | macOS | Sep 30, 2026 |
