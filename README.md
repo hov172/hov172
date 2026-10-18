@@ -12,7 +12,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
-| [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 15, 2026 |
+| [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 18, 2026 |
 | [as-authenticator-docs](https://github.com/hov172/as-authenticator-docs) | Documentation for AS Authenticator, including privacy and security policies, security audit report, encrypted vault format, and changelog. | Documentation / Security | Oct 13, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 12, 2026 |
 | [SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) | MCP (Model Context Protocol) server for SimpleMDM. Query and manage your fleet using natural language through Claude Desktop, Claude Code, or any MCP-compatible client. Supports ~115 tools covering the full SimpleMDM API surface with read-only safety defaults and optional write actions. | TypeScript / Node.js | Oct 12, 2026 |
