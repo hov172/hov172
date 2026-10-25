@@ -12,6 +12,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
+| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Oct 25, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 25, 2026 |
 | [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Oct 24, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 21, 2026 |
@@ -21,7 +22,6 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [Signaro](https://github.com/hov172/Signaro) | macOS app for signing, notarizing, and analyzing .pkg/.app/.mobileconfig files. | macOS | Oct 10, 2026 |
 | [rhino_mcp](https://github.com/hov172/rhino_mcp) | MCP integration for controlling Rhino 3D from Claude, Cursor, and Codex, with 358 tools for geometry, Grasshopper, V-Ray, Enscape, BIM, and AI-assisted generation. | Python / Rhino 3D / MCP | Oct 5, 2026 |
 | [2fast-desktop](https://github.com/hov172/2fast-desktop) | Cross-platform 2FA authenticator for Windows and macOS built on Uno Platform. Features encrypted shared vaults, TOTP/OCRA authentication, Deepnet MobileID imports, camera and desktop QR scanning, Touch ID/Windows Hello biometric unlock, backup/restore, and WebDAV support. | Windows / macOS / C# / Uno Platform | Sep 30, 2026 |
-| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Sep 30, 2026 |
 | [PS-Bookmark-Backup-Tool](https://github.com/hov172/PS-Bookmark-Backup-Tool) | PowerShell GUI/CLI tool for Chrome, Edge & Firefox bookmark export/import and scheduled backups. | PowerShell | Sep 26, 2026 |
 | [PS_WI-FI_Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer) | PowerShell WiFi analyzer app for diagnostics and performance optimization. | PowerShell | Sep 2, 2026 |
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Sep 2, 2026 |
