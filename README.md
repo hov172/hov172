@@ -13,6 +13,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
 | [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Oct 25, 2026 |
+| [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Oct 25, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 25, 2026 |
 | [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Oct 24, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 21, 2026 |
@@ -24,7 +25,6 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [2fast-desktop](https://github.com/hov172/2fast-desktop) | Cross-platform 2FA authenticator for Windows and macOS built on Uno Platform. Features encrypted shared vaults, TOTP/OCRA authentication, Deepnet MobileID imports, camera and desktop QR scanning, Touch ID/Windows Hello biometric unlock, backup/restore, and WebDAV support. | Windows / macOS / C# / Uno Platform | Sep 30, 2026 |
 | [PS-Bookmark-Backup-Tool](https://github.com/hov172/PS-Bookmark-Backup-Tool) | PowerShell GUI/CLI tool for Chrome, Edge & Firefox bookmark export/import and scheduled backups. | PowerShell | Sep 26, 2026 |
 | [PS_WI-FI_Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer) | PowerShell WiFi analyzer app for diagnostics and performance optimization. | PowerShell | Sep 2, 2026 |
-| [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Sep 2, 2026 |
 | [SimpleMDM-MunkiReport](https://github.com/hov172/SimpleMDM-MunkiReport) | MunkiReport module that syncs SimpleMDM device inventory and API resources server-side. Provides fleet dashboards, compliance widgets, per-device connected resource views, webhook ingestion, delta sync, and client-reporter ingestion. *(Beta)* | PHP / Python | Aug 8, 2026 |
 | [MacNetworkPrinterSharedUtility](https://github.com/hov172/MacNetworkPrinters) | Modular macOS network printer utility with PrinterManager and PreferencesManager services. | macOS | Jul 24, 2026 |
 | [MacOS-Bookmarks-Backup-Tool](https://github.com/hov172/MacOS-Bookmarks-Backup-Tool) | Comprehensive macOS bookmark backup & restore tool with GUI and CLI. | macOS | Jul 23, 2026 |
