@@ -34,7 +34,7 @@ def public_repositories():
     while True:
         url = (
             f"https://api.github.com/users/{OWNER}/repos"
-            f"?type=public&per_page=100&page={page}"
+            f"?type=owner&per_page=100&page={page}"
         )
         repos = get_json(url)
         for repo in repos:
