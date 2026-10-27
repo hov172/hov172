@@ -13,6 +13,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
 | [AS Authenticator — Browser Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions) | Official documentation and support for AS Authenticator browser extensions. Secure TOTP, HOTP, Steam Guard, encrypted vaults, QR scanning, and autofill for Chrome, Edge, Firefox, Brave, and Safari. | Browser Extensions / Security | Oct 27, 2026 |
+| [as-authenticator-vault](https://github.com/hov172/as-authenticator-vault) | Privacy policy and support for the AS Authenticator Vault app | Other | Oct 27, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 26, 2026 |
 | [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Oct 26, 2026 |
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Oct 25, 2026 |
