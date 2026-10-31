@@ -12,7 +12,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
-| [BonjourView](https://github.com/hov172/BonjourView) | BonjourView (formerly Bonjeff): live display of the Bonjour services on your network. SwiftUI rebuild of Jeff Johnson's Bonjeff. | Swift | Oct 30, 2026 |
+| [BonjourView](https://github.com/hov172/BonjourView) | BonjourView (formerly Bonjeff): live display of the Bonjour services on your network. SwiftUI rebuild of Jeff Johnson's Bonjeff. | Swift | Oct 31, 2026 |
 | [ITHub](https://github.com/hov172/ITHub) | macOS menu bar IT support dashboard for device health, FileVault, updates, network status, and configurable quick actions via JSON or MDM profiles. | macOS / Swift | Oct 30, 2026 |
 | [TalkAnywhere](https://github.com/hov172/TalkAnywhere) | Talk Anywhere: on-device iOS translator. Join the TestFlight beta. | Other | Oct 29, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 28, 2026 |
