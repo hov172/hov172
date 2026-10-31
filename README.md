@@ -12,7 +12,7 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
-| [autopkg-recipes](https://github.com/hov172/autopkg-recipes) | AutoPkg recipes for apps published by Ayala Solutions (Stash Video) | Other | Oct 31, 2026 |
+| [autopkg-recipes](https://github.com/hov172/autopkg-recipes) | AutoPkg recipes for Ayala Solutions apps (Stash Video, BonjourView, DisplayHelp) for Munki, Jamf Pro and Intune. | AutoPkg / YAML | Oct 31, 2026 |
 | [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Oct 31, 2026 |
 | [BonjourView](https://github.com/hov172/BonjourView) | BonjourView (formerly Bonjeff): live display of the Bonjour services on your network. SwiftUI rebuild of Jeff Johnson's Bonjeff. | Swift | Oct 31, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 31, 2026 |
