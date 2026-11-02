@@ -12,6 +12,8 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
+| [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Nov 2, 2026 |
+| [SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) | MCP (Model Context Protocol) server for SimpleMDM. Query and manage your fleet using natural language through Claude Desktop, Claude Code, or any MCP-compatible client. Supports ~115 tools covering the full SimpleMDM API surface with read-only safety defaults and optional write actions. | TypeScript / Node.js | Nov 2, 2026 |
 | [autopkg-recipes](https://github.com/hov172/autopkg-recipes) | AutoPkg recipes for Ayala Solutions apps (Stash Video, BonjourView, DisplayHelp) for Munki, Jamf Pro and Intune. | AutoPkg / YAML | Oct 31, 2026 |
 | [BonjourView](https://github.com/hov172/BonjourView) | BonjourView (formerly Bonjeff): live display of the Bonjour services on your network. SwiftUI rebuild of Jeff Johnson's Bonjeff. | Swift | Oct 31, 2026 |
 | [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Oct 31, 2026 |
@@ -20,11 +22,9 @@ I build tools that make IT support and administration faster, smarter, and easie
 | [TalkAnywhere](https://github.com/hov172/TalkAnywhere) | Talk Anywhere: on-device iOS translator. Join the TestFlight beta. | iOS | Oct 29, 2026 |
 | [AS Authenticator — Browser Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions) | Official documentation and support for AS Authenticator browser extensions. Secure TOTP, HOTP, Steam Guard, encrypted vaults, QR scanning, and autofill for Chrome, Edge, Firefox, Brave, and Safari. | Browser Extensions / Security | Oct 27, 2026 |
 | [as-authenticator-vault](https://github.com/hov172/as-authenticator-vault) | Privacy policy and support for the AS Authenticator Vault app | Other | Oct 27, 2026 |
-| [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Oct 26, 2026 |
 | [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Oct 26, 2026 |
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Oct 25, 2026 |
 | [homebrew-displayhelp](https://github.com/hov172/homebrew-displayhelp) | Homebrew tap for DisplayHelp | Ruby | Oct 24, 2026 |
-| [SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) | MCP (Model Context Protocol) server for SimpleMDM. Query and manage your fleet using natural language through Claude Desktop, Claude Code, or any MCP-compatible client. Supports ~115 tools covering the full SimpleMDM API surface with read-only safety defaults and optional write actions. | TypeScript / Node.js | Oct 12, 2026 |
 | [Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM) | Native SwiftUI client for SimpleMDM (macOS & iOS). Provides a full operator-focused fleet dashboard, device management, assignment groups, app catalog, profile management, scripts, API explorer, and optional MunkiReport enrichment. | macOS / iOS / SwiftUI | Oct 12, 2026 |
 | [homebrew-signaro](https://github.com/hov172/homebrew-signaro) | Homebrew tap for Signaro — macOS code-signing, notarization, and iOS re-signing utility | Ruby | Oct 10, 2026 |
 | [Signaro](https://github.com/hov172/Signaro) | macOS app for signing, notarizing, and analyzing .pkg/.app/.mobileconfig files. | macOS | Oct 10, 2026 |
