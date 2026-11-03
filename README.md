@@ -12,12 +12,12 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
+| [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Nov 3, 2026 |
 | [autopkg-recipes](https://github.com/hov172/autopkg-recipes) | AutoPkg recipes for Ayala Solutions apps (Stash Video, BonjourView, DisplayHelp) for Munki, Jamf Pro and Intune. | AutoPkg / YAML | Nov 3, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Nov 2, 2026 |
 | [SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) | MCP (Model Context Protocol) server for SimpleMDM. Query and manage your fleet using natural language through Claude Desktop, Claude Code, or any MCP-compatible client. Supports ~115 tools covering the full SimpleMDM API surface with read-only safety defaults and optional write actions. | TypeScript / Node.js | Nov 2, 2026 |
 | [BonjourView](https://github.com/hov172/BonjourView) | BonjourView (formerly Bonjeff): live display of the Bonjour services on your network. SwiftUI rebuild of Jeff Johnson's Bonjeff. | Swift | Oct 31, 2026 |
 | [DisplayHelp](https://github.com/hov172/DisplayHelp) | Display troubleshooting and support utility designed to help diagnose and resolve display-related issues. | macOS | Oct 31, 2026 |
-| [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Oct 31, 2026 |
 | [ITHub](https://github.com/hov172/ITHub) | macOS menu bar IT support dashboard for device health, FileVault, updates, network status, and configurable quick actions via JSON or MDM profiles. | macOS / Swift | Oct 30, 2026 |
 | [TalkAnywhere](https://github.com/hov172/TalkAnywhere) | Talk Anywhere: on-device iOS translator. Join the TestFlight beta. | iOS | Oct 29, 2026 |
 | [AS Authenticator — Browser Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions) | Official documentation and support for AS Authenticator browser extensions. Secure TOTP, HOTP, Steam Guard, encrypted vaults, QR scanning, and autofill for Chrome, Edge, Firefox, Brave, and Safari. | Browser Extensions / Security | Oct 27, 2026 |
