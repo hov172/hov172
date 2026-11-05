@@ -12,8 +12,8 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
-| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Nov 5, 2026 |
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Nov 5, 2026 |
+| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Nov 5, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Nov 4, 2026 |
 | [autopkg-recipes](https://github.com/hov172/autopkg-recipes) | AutoPkg recipes for Ayala Solutions apps (Stash Video, BonjourView, DisplayHelp) for Munki, Jamf Pro and Intune. | AutoPkg / YAML | Nov 3, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Nov 2, 2026 |
