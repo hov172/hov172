@@ -113,10 +113,10 @@ if FEATURED_START in new and FEATURED_END in new:
             continue  # Never expose private or unavailable repositories.
         stamp = repo.get("pushed_at") or repo.get("updated_at") or repo["created_at"]
         parts = line.strip().strip("|").strip().split(" | ")
-        curated = parts[:3]
+        curated = parts[:4] if len(parts) >= 5 else parts[:3] + ["Other"]
         featured_rows.append((stamp, name, "| " + " | ".join(curated) + " | " + fmt(stamp) + " |"))
     featured_rows.sort(key=lambda item: (item[0], item[1]), reverse=True)
-    featured_table = ["| Project | What it does | Platform | Updated |", "|---|---|---|---|"]
+    featured_table = ["| Project | What it does | Platform | Category | Updated |", "|---|---|---|---|---|"]
     featured_table.extend(line for _, _, line in featured_rows)
     new = new[:fa] + "\n\n" + "\n".join(featured_table) + "\n\n" + new[fb:]
 
