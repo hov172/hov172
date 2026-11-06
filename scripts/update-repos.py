@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the profile repository table, discovering new public repositories."""
+"""Automatically maintain featured projects using public GitHub repositories only."""
 import json
 import os
 import re
@@ -9,120 +9,114 @@ from datetime import datetime
 
 README = "README.md"
 OWNER = "hov172"
-START = "<!-- REPOS:START -->"
-END = "<!-- REPOS:END -->"
-FEATURED_START = "<!-- FEATURED:START -->"
-FEATURED_END = "<!-- FEATURED:END -->"
-
-token = os.environ.get("GITHUB_TOKEN", "")
-headers = {
+START = "<!-- FEATURED:START -->"
+END = "<!-- FEATURED:END -->"
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
+HEADERS = {
     "Accept": "application/vnd.github+json",
-    "User-Agent": "profile-repo-updater",
+    "User-Agent": "profile-featured-project-updater",
     "X-GitHub-Api-Version": "2022-11-28",
 }
-if token:
-    headers["Authorization"] = f"Bearer {token}"
+if TOKEN:
+    HEADERS["Authorization"] = f"Bearer {TOKEN}"
 
 
 def get_json(url):
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as response:
+    request = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(request, timeout=30) as response:
         return json.load(response)
 
 
 def public_repositories():
-    # GitHub paginates at 100 repositories; don't silently miss later pages.
     page = 1
     while True:
-        url = (
-            f"https://api.github.com/users/{OWNER}/repos"
-            f"?type=owner&per_page=100&page={page}"
-        )
-        repos = get_json(url)
-        for repo in repos:
+        url = f"https://api.github.com/users/{OWNER}/repos?type=owner&per_page=100&page={page}"
+        batch = get_json(url)
+        for repo in batch:
             if not repo.get("private") and repo["name"].lower() != OWNER.lower():
                 yield repo
-        if len(repos) < 100:
+        if len(batch) < 100:
             break
         page += 1
 
 
-def fmt(iso):
-    d = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-    return f"{d.strftime('%b')} {d.day}, {d.year}"
+def clean(value):
+    return re.sub(r"\s+", " ", str(value or "").replace("|", r"\|")).strip()
 
 
-def cell(value):
-    # Keep GitHub-provided descriptions from breaking the Markdown table.
-    return re.sub(r"\s+", " ", (value or "").replace("|", "\\|")).strip()
+def date_label(stamp):
+    dt = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+    return f"{dt.strftime('%b')} {dt.day}, {dt.year}"
 
 
-with open(README, encoding="utf-8") as file:
-    text = file.read()
+def category(repo):
+    name = repo["name"].lower()
+    description = (repo.get("description") or "").lower()
+    combined = name + " " + description
+    if any(term in combined for term in ("authenticator", "2fa", "totp", "security", "secure-webapp")):
+        return "Security"
+    if any(term in combined for term in ("wifi", "wi-fi", "network", "bonjour", "printer")):
+        return "Networking"
+    if any(term in combined for term in ("mdm", "munki", "endpoint", "device management")):
+        return "Endpoint Management"
+    if any(term in combined for term in ("mcp", "ai assistant", "automation")):
+        return "AI & Automation"
+    if any(term in combined for term in ("autopkg", "homebrew", "signing", "notariz", "deployment")):
+        return "Deployment"
+    if any(term in combined for term in ("ios", "iphone", "translation")):
+        return "Mobile Apps"
+    return "Desktop Utilities"
 
-a = text.index(START) + len(START)
-b = text.index(END, a)
-block = text[a:b]
+
+with open(README, encoding="utf-8") as handle:
+    original = handle.read()
+
+if original.count(START) != 1 or original.count(END) != 1:
+    raise ValueError("Expected exactly one pair of featured project markers")
+
+start = original.index(START) + len(START)
+end = original.index(END, start)
+block = original[start:end]
+# Preserve curated descriptions, platform and category from existing rows.
 existing = {}
-pattern = re.compile(
-    r"^\| \[([^\]]+)\]\(https://github\.com/hov172/([^\)]+)\) \|"
+row_pattern = re.compile(
+    r"^\| \*\*\[[^\]]+\]\(https://github\.com/hov172/([^)]+)\)\*\* \|"
 )
 for line in block.splitlines():
-    match = pattern.match(line)
+    match = row_pattern.match(line)
     if match:
-        existing[urllib.parse.unquote(match.group(2)).lower()] = line
+        name = urllib.parse.unquote(match.group(1)).lower()
+        # A featured row has five columns: project, description, platform, category, date.
+        parts = re.split(r"(?<!\\) \| ", line.strip().strip("|").strip())
+        if len(parts) >= 4:
+            existing[name] = parts[:4]
 
 rows = []
-public_by_name = {}
 for repo in public_repositories():
-    public_by_name[repo["name"].lower()] = repo
     name = repo["name"]
     stamp = repo.get("pushed_at") or repo.get("updated_at") or repo["created_at"]
-    old = existing.get(name.lower())
-    if old:
-        # Keep the hand-curated project name, description, and tech stack.
-        parts = old.rsplit(" | ", 1)
-        line = parts[0] + " | " + fmt(stamp) + " |"
+    curated = existing.get(name.lower())
+    if curated:
+        project, description, platform, group = curated
     else:
-        description = cell(repo.get("description")) or "Public GitHub repository."
-        language = cell(repo.get("language")) or "Other"
-        label = cell(name).replace("[", "\\[").replace("]", "\\]")
         url = f"https://github.com/{OWNER}/{urllib.parse.quote(name)}"
-        line = f"| [{label}]({url}) | {description} | {language} | {fmt(stamp)} |"
-    rows.append((stamp, name.lower(), line))
+        project = f"**[{clean(name)}]({url})**"
+        description = clean(repo.get("description")) or "Public GitHub project."
+        platform = clean(repo.get("language")) or "Other"
+        group = category(repo)
+    row = "| " + " | ".join([project, description, platform, group, date_label(stamp)]) + " |"
+    rows.append((stamp, name.lower(), row))
 
 rows.sort(key=lambda item: (item[0], item[1]), reverse=True)
-table = [
-    "| Project | Description | Tech | Updated |",
-    "|---------|-------------|------|---------|",
-] + [line for _, _, line in rows]
-new = text[:a] + "\n\n" + "\n".join(table) + "\n\n" + text[b:]
-# Refresh featured rows from public repository activity, preserving curated descriptions.
-if FEATURED_START in new and FEATURED_END in new:
-    fa = new.index(FEATURED_START) + len(FEATURED_START)
-    fb = new.index(FEATURED_END, fa)
-    featured_rows = []
-    pattern_featured = re.compile(r"^\| \*\*\[[^\]]+\]\(https://github\.com/hov172/([^)]+)\)\*\* \|")
-    for line in new[fa:fb].splitlines():
-        match = pattern_featured.match(line)
-        if not match:
-            continue
-        name = urllib.parse.unquote(match.group(1)).lower()
-        repo = public_by_name.get(name)
-        if not repo:
-            continue  # Never expose private or unavailable repositories.
-        stamp = repo.get("pushed_at") or repo.get("updated_at") or repo["created_at"]
-        parts = line.strip().strip("|").strip().split(" | ")
-        curated = parts[:4] if len(parts) >= 5 else parts[:3] + ["Other"]
-        featured_rows.append((stamp, name, "| " + " | ".join(curated) + " | " + fmt(stamp) + " |"))
-    featured_rows.sort(key=lambda item: (item[0], item[1]), reverse=True)
-    featured_table = ["| Project | What it does | Platform | Category | Updated |", "|---|---|---|---|---|"]
-    featured_table.extend(line for _, _, line in featured_rows)
-    new = new[:fa] + "\n\n" + "\n".join(featured_table) + "\n\n" + new[fb:]
-
-if new != text:
-    with open(README, "w", encoding="utf-8") as file:
-        file.write(new)
-    print(f"Updated README with {len(rows)} public repositories.")
+header = [
+    "| Project | What it does | Platform | Category | Updated |",
+    "|---|---|---|---|---|",
+]
+updated_block = "\n\n" + "\n".join(header + [row for _, _, row in rows]) + "\n\n"
+updated = original[:start] + updated_block + original[end:]
+if updated != original:
+    with open(README, "w", encoding="utf-8") as handle:
+        handle.write(updated)
+    print(f"Updated {len(rows)} featured public repositories.")
 else:
-    print(f"README already current ({len(rows)} public repositories).")
+    print(f"Featured projects already current ({len(rows)} public repositories).")
