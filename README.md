@@ -71,14 +71,11 @@ I focus on **real IT problems**, clear technician workflows, maintainable tools,
 
 ---
 
-## 📦 All Public Repositories
+## 📦 Explore More Projects
 
-This table is **automatically maintained** by [GitHub Actions](https://github.com/hov172/hov172/actions/workflows/update-repos.yml). New public repositories are discovered and the **Updated** column refreshes from GitHub repository activity. The curated featured-project and category sections above are maintained separately.
+Browse my [complete public repository collection](https://github.com/hov172?tab=repositories). The **Featured Projects** table above automatically discovers new public repositories, refreshes their last-push dates, and sorts them newest first.
 
-<!-- REPOS:START -->
-
-| Project | Description | Tech | Updated |
-|---------|-------------|------|---------|
+---------|-------------|------|---------|
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Nov 5, 2026 |
 | [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Nov 5, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Nov 4, 2026 |
