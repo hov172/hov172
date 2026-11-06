@@ -131,7 +131,7 @@ for repo in public_repositories():
 
 rows.sort(key=lambda item: (item[0], item[1]), reverse=True)
 header = ["| Project | What it does | Platform | Category | Updated |", "|---|---|---|---|---|"]
-updated_block = "\\n\\n" + "\\n".join(header + [row for _, _, row in rows]) + "\\n\\n"
+updated_block = "\n\n" + "\n".join(header + [row for _, _, row in rows]) + "\n\n"
 updated = original[:start] + updated_block + original[end:]
 if updated != original:
     with open(README, "w", encoding="utf-8") as handle:
