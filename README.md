@@ -11,16 +11,20 @@ I build practical software for IT teams: endpoint management, troubleshooting, a
 
 ## ⭐ Featured Projects
 
-| Project | What it does | Platform |
-|---|---|---|
-| **[Signaro](https://github.com/hov172/Signaro)** | Signing, notarization, and analysis of Apple apps and packages. | macOS |
-| **[DisplayHelp](https://github.com/hov172/DisplayHelp)** | Helps technicians troubleshoot external displays and projector setups. | macOS |
-| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native fleet management client for devices, apps, profiles, scripts, and API operations. | macOS / iOS |
-| **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM with compatible AI assistants, with read-only safety defaults. | TypeScript / Node.js |
-| **[ITHub](https://github.com/hov172/ITHub)** | Menu bar dashboard for device health, FileVault, updates, network status, and support actions. | macOS / Swift |
-| **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | Wi-Fi diagnostic reporting for IT troubleshooting. | macOS |
-| **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analysis, connection-health diagnostics, access-point ranking, roaming insights, and privacy-aware PDF/CSV reports. | Windows / macOS / Linux · .NET / Avalonia |
-| **[StashVideos](https://github.com/hov172/StashVideos)** | Native macOS frontend for yt-dlp, with a streamlined interface for media downloads and release distribution. | macOS |
+<!-- FEATURED:START -->
+
+| Project | What it does | Platform | Updated |
+|---|---|---|---|
+| **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | Wi-Fi diagnostic reporting for IT troubleshooting. | macOS | Nov 5, 2026 |
+| **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analysis, connection-health diagnostics, access-point ranking, roaming insights, and privacy-aware PDF/CSV reports. | Windows / macOS / Linux · .NET / Avalonia | Nov 5, 2026 |
+| **[StashVideos](https://github.com/hov172/StashVideos)** | Native macOS frontend for yt-dlp, with a streamlined interface for media downloads and release distribution. | macOS | Nov 4, 2026 |
+| **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM with compatible AI assistants, with read-only safety defaults. | TypeScript / Node.js | Nov 2, 2026 |
+| **[DisplayHelp](https://github.com/hov172/DisplayHelp)** | Helps technicians troubleshoot external displays and projector setups. | macOS | Oct 31, 2026 |
+| **[ITHub](https://github.com/hov172/ITHub)** | Menu bar dashboard for device health, FileVault, updates, network status, and support actions. | macOS / Swift | Oct 30, 2026 |
+| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native fleet management client for devices, apps, profiles, scripts, and API operations. | macOS / iOS | Oct 12, 2026 |
+| **[Signaro](https://github.com/hov172/Signaro)** | Signing, notarization, and analysis of Apple apps and packages. | macOS | Oct 10, 2026 |
+
+<!-- FEATURED:END -->
 
 ## 🧭 Explore by Category
 
