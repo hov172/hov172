@@ -77,19 +77,23 @@ if original.count(START) != 1 or original.count(END) != 1:
 start = original.index(START) + len(START)
 end = original.index(END, start)
 block = original[start:end]
-# Preserve curated descriptions, platform and category from existing rows.
+# Preserve existing hand-written details across scheduled updates.
 existing = {}
-row_pattern = re.compile(
-    r"^\| \*\*\[[^\]]+\]\(https://github\.com/hov172/([^)]+)\)\*\* \|"
+card_pattern = re.compile(r"^### \[([^\]]+)\]\(https://github\.com/hov172/([^)]+)\)$")
+meta_pattern = re.compile(
+    r"^\*\*Category:\*\* (.*?) · \*\*Platform:\*\* (.*?) · \*\*Updated:\*\* (.*?)$"
 )
-for line in block.splitlines():
-    match = row_pattern.match(line)
-    if match:
-        name = urllib.parse.unquote(match.group(1)).lower()
-        # A featured row has five columns: project, description, platform, category, date.
-        parts = re.split(r"(?<!\\) \| ", line.strip().strip("|").strip())
-        if len(parts) >= 4:
-            existing[name] = parts[:4]
+sections = re.split(r"\n\n---\n\n", block.strip())
+for section in sections:
+    lines = section.splitlines()
+    if len(lines) < 5:
+        continue
+    match = card_pattern.match(lines[0])
+    metadata = meta_pattern.match(lines[-1])
+    if match and metadata:
+        name = urllib.parse.unquote(match.group(2)).lower()
+        description = "\n".join(lines[2:-2]).strip()
+        existing[name] = (match.group(1), description, metadata.group(1), metadata.group(2))
 
 rows = []
 for repo in public_repositories():
@@ -97,22 +101,23 @@ for repo in public_repositories():
     stamp = repo.get("pushed_at") or repo.get("updated_at") or repo["created_at"]
     curated = existing.get(name.lower())
     if curated:
-        project, description, platform, group = curated
+        label, description, group, platform = curated
     else:
-        url = f"https://github.com/{OWNER}/{urllib.parse.quote(name)}"
-        project = f"**[{clean(name)}]({url})**"
+        label = clean(name).replace("[", r"\[").replace("]", r"\]")
         description = clean(repo.get("description")) or "Public GitHub project."
         platform = clean(repo.get("language")) or "Other"
         group = category(repo)
-    row = "| " + " | ".join([project, description, platform, group, date_label(stamp)]) + " |"
-    rows.append((stamp, name.lower(), row))
+    url = f"https://github.com/{OWNER}/{urllib.parse.quote(name)}"
+    card = (
+        f"### [{label}]({url})\n\n"
+        f"{description}\n\n"
+        f"**Category:** {group} · **Platform:** {platform} · "
+        f"**Updated:** {date_label(stamp)}"
+    )
+    rows.append((stamp, name.lower(), card))
 
 rows.sort(key=lambda item: (item[0], item[1]), reverse=True)
-header = [
-    "| Project | What it does | Platform | Category | Updated |",
-    "|---|---|---|---|---|",
-]
-updated_block = "\n\n" + "\n".join(header + [row for _, _, row in rows]) + "\n\n"
+updated_block = "\n\n" + "\n\n---\n\n".join(card for _, _, card in rows) + "\n\n"
 updated = original[:start] + updated_block + original[end:]
 if updated != original:
     with open(README, "w", encoding="utf-8") as handle:
