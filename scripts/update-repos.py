@@ -11,6 +11,8 @@ README = "README.md"
 OWNER = "hov172"
 START = "<!-- REPOS:START -->"
 END = "<!-- REPOS:END -->"
+FEATURED_START = "<!-- FEATURED:START -->"
+FEATURED_END = "<!-- FEATURED:END -->"
 
 token = os.environ.get("GITHUB_TOKEN", "")
 headers = {
@@ -71,7 +73,9 @@ for line in block.splitlines():
         existing[urllib.parse.unquote(match.group(2)).lower()] = line
 
 rows = []
+public_by_name = {}
 for repo in public_repositories():
+    public_by_name[repo["name"].lower()] = repo
     name = repo["name"]
     stamp = repo.get("pushed_at") or repo.get("updated_at") or repo["created_at"]
     old = existing.get(name.lower())
@@ -93,6 +97,29 @@ table = [
     "|---------|-------------|------|---------|",
 ] + [line for _, _, line in rows]
 new = text[:a] + "\n\n" + "\n".join(table) + "\n\n" + text[b:]
+# Refresh featured rows from public repository activity, preserving curated descriptions.
+if FEATURED_START in new and FEATURED_END in new:
+    fa = new.index(FEATURED_START) + len(FEATURED_START)
+    fb = new.index(FEATURED_END, fa)
+    featured_rows = []
+    pattern_featured = re.compile(r"^\| \*\*\[[^\]]+\]\(https://github\.com/hov172/([^)]+)\)\*\* \|")
+    for line in new[fa:fb].splitlines():
+        match = pattern_featured.match(line)
+        if not match:
+            continue
+        name = urllib.parse.unquote(match.group(1)).lower()
+        repo = public_by_name.get(name)
+        if not repo:
+            continue  # Never expose private or unavailable repositories.
+        stamp = repo.get("pushed_at") or repo.get("updated_at") or repo["created_at"]
+        parts = line.strip().strip("|").strip().split(" | ")
+        curated = parts[:3]
+        featured_rows.append((stamp, name, "| " + " | ".join(curated) + " | " + fmt(stamp) + " |"))
+    featured_rows.sort(key=lambda item: (item[0], item[1]), reverse=True)
+    featured_table = ["| Project | What it does | Platform | Updated |", "|---|---|---|---|"]
+    featured_table.extend(line for _, _, line in featured_rows)
+    new = new[:fa] + "\n\n" + "\n".join(featured_table) + "\n\n" + new[fb:]
+
 if new != text:
     with open(README, "w", encoding="utf-8") as file:
         file.write(new)
