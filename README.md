@@ -13,16 +13,24 @@ I build practical software for IT teams: endpoint management, troubleshooting, a
 
 <!-- FEATURED:START -->
 
-| Project | What it does | Platform | Updated |
-|---|---|---|---|
-| **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | Wi-Fi diagnostic reporting for IT troubleshooting. | macOS | Nov 5, 2026 |
-| **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analysis, connection-health diagnostics, access-point ranking, roaming insights, and privacy-aware PDF/CSV reports. | Windows / macOS / Linux · .NET / Avalonia | Nov 5, 2026 |
-| **[StashVideos](https://github.com/hov172/StashVideos)** | Native macOS frontend for yt-dlp, with a streamlined interface for media downloads and release distribution. | macOS | Nov 4, 2026 |
-| **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM with compatible AI assistants, with read-only safety defaults. | TypeScript / Node.js | Nov 2, 2026 |
-| **[DisplayHelp](https://github.com/hov172/DisplayHelp)** | Helps technicians troubleshoot external displays and projector setups. | macOS | Oct 31, 2026 |
-| **[ITHub](https://github.com/hov172/ITHub)** | Menu bar dashboard for device health, FileVault, updates, network status, and support actions. | macOS / Swift | Oct 30, 2026 |
-| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native fleet management client for devices, apps, profiles, scripts, and API operations. | macOS / iOS | Oct 12, 2026 |
-| **[Signaro](https://github.com/hov172/Signaro)** | Signing, notarization, and analysis of Apple apps and packages. | macOS | Oct 10, 2026 |
+| Project | What it does | Platform | Category | Updated |
+|---|---|---|---|---|
+| **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | Wi-Fi diagnostic reporting for IT troubleshooting. | macOS | Networking | Nov 5, 2026 |
+| **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analysis, connection-health diagnostics, access-point ranking, roaming insights, and privacy-aware PDF/CSV reports. | Windows / macOS / Linux · .NET / Avalonia | Networking | Nov 5, 2026 |
+| **[StashVideos](https://github.com/hov172/StashVideos)** | Native macOS frontend for yt-dlp, with a streamlined interface for media downloads and release distribution. | macOS | Desktop Utilities | Nov 4, 2026 |
+| **[autopkg-recipes](https://github.com/hov172/autopkg-recipes)** | AutoPkg recipes for deploying applications through IT management tools. | AutoPkg / YAML | Deployment | Nov 3, 2026 |
+| **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM with compatible AI assistants, with read-only safety defaults. | TypeScript / Node.js | AI & Automation | Nov 2, 2026 |
+| **[DisplayHelp](https://github.com/hov172/DisplayHelp)** | Helps technicians troubleshoot external displays and projector setups. | macOS | Endpoint Management | Oct 31, 2026 |
+| **[BonjourView](https://github.com/hov172/BonjourView)** | Bonjour service discovery and network visibility. | macOS / Swift | Networking | Oct 31, 2026 |
+| **[ITHub](https://github.com/hov172/ITHub)** | Menu bar dashboard for device health, FileVault, updates, network status, and support actions. | macOS / Swift | Endpoint Management | Oct 30, 2026 |
+| **[TalkAnywhere](https://github.com/hov172/TalkAnywhere)** | On-device translation app. | iOS | Mobile Apps | Oct 29, 2026 |
+| **[AS-Authenticator-Browser-Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions)** | Browser authenticator extension documentation and support. | Browser Extensions | Security | Oct 27, 2026 |
+| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native fleet management client for devices, apps, profiles, scripts, and API operations. | macOS / iOS | Endpoint Management | Oct 12, 2026 |
+| **[Signaro](https://github.com/hov172/Signaro)** | Signing, notarization, and analysis of Apple apps and packages. | macOS | Security & Deployment | Oct 10, 2026 |
+| **[rhino_mcp](https://github.com/hov172/rhino_mcp)** | MCP integration for Rhino 3D automation and AI workflows. | Python / MCP | AI & Automation | Oct 5, 2026 |
+| **[2fast-desktop](https://github.com/hov172/2fast-desktop)** | Cross-platform two-factor authenticator with encrypted vaults and biometric unlock. | Windows / macOS / C# | Security | Sep 30, 2026 |
+| **[PS_WI-FI_Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer)** | PowerShell Wi-Fi diagnostics and performance analysis. | Windows / PowerShell | Networking | Sep 2, 2026 |
+| **[SimpleMDM-MunkiReport](https://github.com/hov172/SimpleMDM-MunkiReport)** | Inventory synchronization, fleet reporting, and compliance dashboards for MunkiReport. | PHP / Python | Endpoint Management | Aug 8, 2026 |
 
 <!-- FEATURED:END -->
 
