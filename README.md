@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jay
 
-**IT Manager · Endpoint Management · macOS & Windows Automation · Open-Source Developer**  
+**IT Manager · Endpoint Management · macOS & Windows Automation · Software Developer**  
 📍 New York City, USA
 
 I build practical software for IT teams: endpoint management, troubleshooting, automation, secure application distribution, and network diagnostics. My work is shaped by real-world support and administration workflows across macOS, Windows, and iOS.
@@ -10,6 +10,8 @@ I build practical software for IT teams: endpoint management, troubleshooting, a
 ---
 
 ## ⭐ Featured Projects
+
+Selected tools, integrations, and software releases. Some repositories provide source code; others host application downloads, documentation, or deployment recipes. Check each project's license and README for availability and reuse terms.
 
 <!-- FEATURED:START -->
 
@@ -24,6 +26,8 @@ macOS Wi-Fi toolkit for nearby-network scans, signal monitoring, performance tes
 ### [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)
 
 Cross-platform Wi-Fi analyzer for Windows, macOS, and Linux with channel intelligence, connection-health diagnostics, AP analysis, and exportable reports.
+
+[Screenshot](https://github.com/hov172/WinWiFiAnalyzer/blob/main/images/scan_Main-Networks.png) · [Releases](https://github.com/hov172/WinWiFiAnalyzer/releases)
 
 **Category:** Networking · **Platform:** Windows / macOS / Linux · .NET / Avalonia · **Updated:** Nov 5, 2026
 
@@ -56,6 +60,8 @@ MCP server connecting SimpleMDM to AI assistants for natural-language fleet audi
 ### [DisplayHelp](https://github.com/hov172/DisplayHelp)
 
 macOS menu bar utility that remembers room-specific display setups, restores mirror/extend configurations, and helps troubleshoot projectors, TVs, and external monitors.
+
+[Screenshot](https://github.com/hov172/DisplayHelp/blob/main/docs/images/menu-viewport.png) · [Releases](https://github.com/hov172/DisplayHelp/releases)
 
 **Category:** Endpoint Management · **Platform:** macOS · **Updated:** Oct 31, 2026
 
@@ -105,6 +111,8 @@ Native SimpleMDM client for macOS, iOS, iPadOS, and visionOS featuring fleet das
 
 Privacy-first macOS signing and notarization toolkit with DMG creation, iOS IPA re-signing, certificate management, and GUI/CLI workflows.
 
+[Screenshot](https://github.com/hov172/Signaro/blob/main/docimages/Signaro_Main.png) · [Releases](https://github.com/hov172/Signaro/releases)
+
 **Category:** Security & Deployment · **Platform:** macOS · **Updated:** Oct 10, 2026
 
 ---
@@ -141,22 +149,11 @@ MunkiReport module that synchronizes SimpleMDM inventory and API resources, with
 
 <!-- FEATURED:END -->
 
-## 🧭 Explore by Category
+## 🧭 Areas of Work
 
-### 🖥️ Endpoint Management & Deployment
-[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM) · [SimpleMDM-MunkiReport](https://github.com/hov172/SimpleMDM-MunkiReport) · [ITHub](https://github.com/hov172/ITHub) · [DisplayHelp](https://github.com/hov172/DisplayHelp) · [AutoPkg Recipes](https://github.com/hov172/autopkg-recipes)
+**Endpoint Management & Deployment** · **Networking & Diagnostics** · **Security & Authentication** · **AI & Automation** · **Desktop & Mobile Apps**
 
-### 🌐 Networking & Diagnostics
-[WifDiagReport](https://github.com/hov172/WifDiagReport) · [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) · [PS Wi-Fi Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer) · [BonjourView](https://github.com/hov172/BonjourView) · [Dante Routing Explorer](https://github.com/hov172/Dante-Routing-Explorer)
-
-### 🔐 Security & Authentication
-[Signaro](https://github.com/hov172/Signaro) · [2fast Desktop](https://github.com/hov172/2fast-desktop) · [AS Authenticator Browser Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions) · [Secure Web App Skill](https://github.com/hov172/secure-webapp-skill)
-
-### 🤖 AI, APIs & Automation
-[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) · [Rhino MCP](https://github.com/hov172/rhino_mcp) · [AutoPkg Recipes](https://github.com/hov172/autopkg-recipes) · [BurnToast Notification Studio](https://github.com/hov172/BurnToast_Notification_Studio)
-
-### 🛠️ Desktop & Productivity Tools
-[StashVideos](https://github.com/hov172/StashVideos) · [TalkAnywhere](https://github.com/hov172/TalkAnywhere) · [macOS Bookmark Backup](https://github.com/hov172/MacOS-Bookmarks-Backup-Tool) · [Windows Bookmark Backup](https://github.com/hov172/Win-Bookmarks-Backup-Tool) · [PowerShell Bookmark Backup](https://github.com/hov172/PS-Bookmark-Backup-Tool) · [Mac Network Printers](https://github.com/hov172/MacNetworkPrinters) · [Windows Network Printers](https://github.com/hov172/WindowsNetworkPrinterSharedUtility)
+Browse the featured projects above for detailed examples, or [see every public repository](https://github.com/hov172?tab=repositories).
 
 ---
 
