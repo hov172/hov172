@@ -1,19 +1,72 @@
 # 👋 Hi, I'm Jay
-**IT Manager | IT Enthusiast**  
-📍 NYC, USA
 
-I build tools that make IT support and administration faster, smarter, and easier — from Wi-Fi diagnostics and network printer utilities to automated browser bookmark backups, MDM integrations, display troubleshooting, and cross-platform authentication tools. My work focuses on practical, reliable solutions for Windows, macOS, and iOS environments.
+**IT Manager · Endpoint Management · macOS & Windows Automation · Open-Source Developer**  
+📍 New York City, USA
+
+I build practical software for IT teams: endpoint management, troubleshooting, automation, secure application distribution, and network diagnostics. My work is shaped by real-world support and administration workflows across macOS, Windows, and iOS.
+
+[![GitHub](https://img.shields.io/badge/GitHub-hov172-181717?style=flat-square&logo=github)](https://github.com/hov172) [![PowerShell Gallery](https://img.shields.io/badge/PowerShell-Gallery-2671BE?style=flat-square&logo=powershell)](https://www.powershellgallery.com/profiles/hov172) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/jesus-a-785bb616)
 
 ---
 
-## 🛠️ My Public Repositories
+## ⭐ Featured Projects
+
+| Project | What it does | Platform |
+|---|---|---|
+| **[Signaro](https://github.com/hov172/Signaro)** | Signing, notarization, and analysis of Apple apps and packages. | macOS |
+| **[DisplayHelp](https://github.com/hov172/DisplayHelp)** | Helps technicians troubleshoot external displays and projector setups. | macOS |
+| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native fleet management client for devices, apps, profiles, scripts, and API operations. | macOS / iOS |
+| **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM with compatible AI assistants, with read-only safety defaults. | TypeScript / Node.js |
+| **[ITHub](https://github.com/hov172/ITHub)** | Menu bar dashboard for device health, FileVault, updates, network status, and support actions. | macOS / Swift |
+| **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | Wi-Fi diagnostic reporting for IT troubleshooting. | macOS |
+
+## 🧭 Explore by Category
+
+### 🖥️ Endpoint Management & Deployment
+[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM) · [SimpleMDM-MunkiReport](https://github.com/hov172/SimpleMDM-MunkiReport) · [ITHub](https://github.com/hov172/ITHub) · [DisplayHelp](https://github.com/hov172/DisplayHelp) · [AutoPkg Recipes](https://github.com/hov172/autopkg-recipes)
+
+### 🌐 Networking & Diagnostics
+[WifDiagReport](https://github.com/hov172/WifDiagReport) · [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) · [PS Wi-Fi Analyzer](https://github.com/hov172/PS_WI-FI_Analyzer) · [BonjourView](https://github.com/hov172/BonjourView) · [Dante Routing Explorer](https://github.com/hov172/Dante-Routing-Explorer)
+
+### 🔐 Security & Authentication
+[Signaro](https://github.com/hov172/Signaro) · [2fast Desktop](https://github.com/hov172/2fast-desktop) · [AS Authenticator Browser Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions) · [Secure Web App Skill](https://github.com/hov172/secure-webapp-skill)
+
+### 🤖 AI, APIs & Automation
+[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP) · [Rhino MCP](https://github.com/hov172/rhino_mcp) · [AutoPkg Recipes](https://github.com/hov172/autopkg-recipes) · [BurnToast Notification Studio](https://github.com/hov172/BurnToast_Notification_Studio)
+
+### 🛠️ Desktop & Productivity Tools
+[StashVideos](https://github.com/hov172/StashVideos) · [TalkAnywhere](https://github.com/hov172/TalkAnywhere) · [macOS Bookmark Backup](https://github.com/hov172/MacOS-Bookmarks-Backup-Tool) · [Windows Bookmark Backup](https://github.com/hov172/Win-Bookmarks-Backup-Tool) · [PowerShell Bookmark Backup](https://github.com/hov172/PS-Bookmark-Backup-Tool) · [Mac Network Printers](https://github.com/hov172/MacNetworkPrinters) · [Windows Network Printers](https://github.com/hov172/WindowsNetworkPrinterSharedUtility)
+
+---
+
+## 🧰 Technologies & Specialties
+
+| Area | Technologies |
+|---|---|
+| Platforms | macOS, Windows, iOS |
+| Development | Swift / SwiftUI, PowerShell, Python, TypeScript / Node.js, C#, Uno Platform, PHP |
+| Endpoint Management | SimpleMDM, Munki, MunkiReport, Apple device management |
+| Packaging & Deployment | AutoPkg, Homebrew, code signing, notarization |
+| Networking | Wi-Fi diagnostics, Bonjour / mDNS, printer connectivity, AV troubleshooting |
+| Security | TOTP / HOTP, encrypted vaults, secure APIs |
+| Automation | REST APIs, MCP integrations, scripting |
+
+## 💡 Development Approach
+
+I focus on **real IT problems**, clear technician workflows, maintainable tools, automation-friendly design, and secure defaults.
+
+---
+
+## 📦 All Public Repositories
+
+This table is **automatically maintained** by [GitHub Actions](https://github.com/hov172/hov172/actions/workflows/update-repos.yml). New public repositories are discovered and the **Updated** column refreshes from GitHub repository activity. The curated featured-project and category sections above are maintained separately.
 
 <!-- REPOS:START -->
 
 | Project | Description | Tech | Updated |
 |---------|-------------|------|---------|
 | [WifDiagReport](https://github.com/hov172/WifDiagReport) | macOS app for WiFi diagnostics and technical troubleshooting. | macOS | Nov 5, 2026 |
-| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Nov 5, 2026 |
+| [WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer) | Windows/macOS WiFi report generator for IT support and troubleshooting. | Windows / macOS | Nov 5, 2026 |
 | [StashVideos](https://github.com/hov172/StashVideos) | Stash Video, a native macOS front end for yt-dlp; repository provides releases, release notes, and license information. | macOS / yt-dlp | Nov 4, 2026 |
 | [autopkg-recipes](https://github.com/hov172/autopkg-recipes) | AutoPkg recipes for Ayala Solutions apps (Stash Video, BonjourView, DisplayHelp) for Munki, Jamf Pro and Intune. | AutoPkg / YAML | Nov 3, 2026 |
 | [secure-webapp-skill](https://github.com/hov172/secure-webapp-skill) | Secure web application skill demonstrating best practices for authentication, input validation, and secure API interactions. Designed as a reference implementation for building safer web-based tools and integrations. | Web / Security | Nov 2, 2026 |
@@ -44,39 +97,13 @@ I build tools that make IT support and administration faster, smarter, and easie
 
 ---
 
-## 🧰 Tech Stack & Skills
+## 🤝 Connect & Collaborate
 
-- **Platforms:** macOS, Windows, iOS, cross-platform UI frameworks
-- **Development:** SwiftUI, C#, Uno Platform, TypeScript / Node.js, PHP / Python, PowerShell
-- **Specialties:**
-  - Network troubleshooting & diagnostics
-  - Wi-Fi diagnostics & performance analysis
-  - Display troubleshooting & diagnostics
-  - Printer & network utilities
-  - Bookmark backup/restore tools
-  - Application signing and notarization (macOS)
-  - MDM platform tooling (SimpleMDM / SwiftUI)
-  - MunkiReport module development (PHP / Python)
-  - MCP server development & API integrations
-  - Two-factor authentication (2FA), TOTP & OCRA
-  - Biometric authentication with Touch ID & Windows Hello
-  - Secure encrypted vaults & credential management
-  - Secure web application design & API security
+- [GitHub](https://github.com/hov172) · [PowerShell Gallery](https://www.powershellgallery.com/profiles/hov172) · [LinkedIn](https://www.linkedin.com/in/jesus-a-785bb616)
+- [Bluesky](https://bsky.app/profile/ayalasolutions.bsky.social) · [X / Twitter](https://twitter.com/AyalaSolutions)
+- Slack: **@Hov172** · Discord: **Jay172_**
+- For project questions and feature requests, use the relevant repository's Issues or Discussions.
 
----
+[![Buy Me A Coffee](https://img.shields.io/badge/Support_My_Work-Buy_Me_A_Coffee-FFDD00?style=flat-square)](https://buymeacoffee.com/hov172)
 
-## 🌐 Connect With Me
-
-- [GitHub](https://github.com/hov172)
-- [PowerShell Gallery](https://www.powershellgallery.com/profiles/hov172)
-- 📨 Slack: **@Hov172**
-- 🕹️ Discord: **Jay172_**
-- [LinkedIn](https://www.linkedin.com/in/jesus-a-785bb616?trk=people-guest_people_search-card)
-- 🐦 [Twitter / X (@AyalaSolutions)](https://twitter.com/AyalaSolutions)
-- <a href="https://bsky.app/profile/ayalasolutions.bsky.social"><img src="https://raw.githubusercontent.com/bluesky-social/social-app/main/assets/logo.png" width="20" alt="Bluesky Logo"></a> [@AyalaSolutions](https://bsky.app/profile/ayalasolutions.bsky.social)
-- [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/hov172)
-- 📧 *Contact via social accounts, issues, or discussions*
-
----
-
-⭐ *If you find my tools useful, consider giving them a star to support future development!*
+*If a tool helps you or your team, consider starring its repository.* ⭐
