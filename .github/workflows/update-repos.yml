@@ -1,4 +1,4 @@
-name: Update Profile Repositories
+name: Update Featured Projects
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Update repository table
+      - name: Refresh featured projects and discover public repositories
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update-repos.py
@@ -34,5 +34,5 @@ jobs:
             echo "No README changes."
             exit 0
           fi
-          git commit -m "Auto-update repository list"
+          git commit -m "Auto-update featured public projects"
           git push
