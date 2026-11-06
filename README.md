@@ -27,6 +27,8 @@ macOS Wi-Fi toolkit for nearby-network scans, signal monitoring, performance tes
 
 Cross-platform Wi-Fi analyzer for Windows, macOS, and Linux with channel intelligence, connection-health diagnostics, AP analysis, and exportable reports.
 
+![WinWiFiAnalyzer network scan interface](https://raw.githubusercontent.com/hov172/WinWiFiAnalyzer/main/images/scan_Main-Networks.png)
+
 [Screenshot](https://github.com/hov172/WinWiFiAnalyzer/blob/main/images/scan_Main-Networks.png) · [Releases](https://github.com/hov172/WinWiFiAnalyzer/releases)
 
 **Category:** Networking · **Platform:** Windows / macOS / Linux · .NET / Avalonia · **Updated:** Nov 5, 2026
@@ -60,6 +62,8 @@ MCP server connecting SimpleMDM to AI assistants for natural-language fleet audi
 ### [DisplayHelp](https://github.com/hov172/DisplayHelp)
 
 macOS menu bar utility that remembers room-specific display setups, restores mirror/extend configurations, and helps troubleshoot projectors, TVs, and external monitors.
+
+![DisplayHelp macOS menu bar screenshot](https://raw.githubusercontent.com/hov172/DisplayHelp/main/docs/images/menu-viewport.png)
 
 [Screenshot](https://github.com/hov172/DisplayHelp/blob/main/docs/images/menu-viewport.png) · [Releases](https://github.com/hov172/DisplayHelp/releases)
 
@@ -110,6 +114,8 @@ Native SimpleMDM client for macOS, iOS, iPadOS, and visionOS featuring fleet das
 ### [Signaro](https://github.com/hov172/Signaro)
 
 Privacy-first macOS signing and notarization toolkit with DMG creation, iOS IPA re-signing, certificate management, and GUI/CLI workflows.
+
+![Signaro main application window](https://raw.githubusercontent.com/hov172/Signaro/main/docimages/Signaro_Main.png)
 
 [Screenshot](https://github.com/hov172/Signaro/blob/main/docimages/Signaro_Main.png) · [Releases](https://github.com/hov172/Signaro/releases)
 
