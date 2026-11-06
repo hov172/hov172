@@ -44,7 +44,7 @@ Browse the featured projects above for detailed examples, or [see every public r
 
 ---
 
-## 🧰 Technologies & Specialties
+## 🧰 Technologies & Interest's 
 
 | Area | Technologies |
 |---|---|
