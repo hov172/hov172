@@ -49,6 +49,30 @@ def date_label(stamp):
     return f"{dt.strftime('%b')} {dt.day}, {dt.year}"
 
 
+def new_project_description(repo):
+    """Use a concise README introduction for newly discovered repositories."""
+    fallback = clean(repo.get("description")) or "Public GitHub project."
+    url = f"https://api.github.com/repos/{OWNER}/{urllib.parse.quote(repo['name'])}/readme"
+    try:
+        request = urllib.request.Request(
+            url, headers={**HEADERS, "Accept": "application/vnd.github.raw+json"}
+        )
+        with urllib.request.urlopen(request, timeout=15) as response:
+            raw = response.read(45000).decode("utf-8", errors="replace")
+        for paragraph in re.split(r"\n\s*\n", raw):
+            paragraph = paragraph.strip()
+            if not paragraph or paragraph.startswith(("#", "!", "<", "|", "-", "*", ">")):
+                continue
+            if "](" in paragraph or paragraph.startswith(chr(96) * 3):
+                continue
+            sentence = clean(re.sub(r"[\x60*_]", "", paragraph))
+            if 45 <= len(sentence) <= 320:
+                return sentence
+    except (OSError, ValueError, UnicodeError):
+        pass
+    return fallback
+
+
 def category(repo):
     name = repo["name"].lower()
     description = (repo.get("description") or "").lower()
@@ -104,7 +128,7 @@ for repo in public_repositories():
         label, description, group, platform = curated
     else:
         label = clean(name).replace("[", r"\[").replace("]", r"\]")
-        description = clean(repo.get("description")) or "Public GitHub project."
+        description = new_project_description(repo)
         platform = clean(repo.get("language")) or "Other"
         group = category(repo)
     url = f"https://github.com/{OWNER}/{urllib.parse.quote(name)}"
