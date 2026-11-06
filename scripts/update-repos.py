@@ -103,11 +103,11 @@ end = original.index(END, start)
 block = original[start:end]
 # Preserve curated details from existing table rows.
 existing = {}
-row_pattern = re.compile(r"^\\| \\*\\*\\[([^\\]]+)\\]\\(https://github\\.com/hov172/([^)]+)\\)\\*\\* \\|")
+row_pattern = re.compile(r"^\| \*\*\[([^\]]+)\]\(https://github\.com/hov172/([^)]+)\)\*\* \|")
 for line in block.splitlines():
     match = row_pattern.match(line)
     if match:
-        parts = re.split(r"(?<!\\\\) \\| ", line.strip().strip("|").strip())
+        parts = re.split(r"(?<!\\) \| ", line.strip().strip("|").strip())
         if len(parts) == 5:
             existing[urllib.parse.unquote(match.group(2)).lower()] = parts[:4]
 
@@ -119,7 +119,7 @@ for repo in public_repositories():
     if curated:
         project, description, platform, group = curated
     else:
-        label = clean(name).replace("[", r"\\[").replace("]", r"\\]")
+        label = clean(name).replace("[", r"\[").replace("]", r"\]")
         url = f"https://github.com/{OWNER}/{urllib.parse.quote(name)}"
         project = f"**[{label}]({url})**"
         description = new_project_description(repo)
