@@ -19,6 +19,8 @@ I build practical software for IT teams: endpoint management, troubleshooting, a
 | **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM with compatible AI assistants, with read-only safety defaults. | TypeScript / Node.js |
 | **[ITHub](https://github.com/hov172/ITHub)** | Menu bar dashboard for device health, FileVault, updates, network status, and support actions. | macOS / Swift |
 | **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | Wi-Fi diagnostic reporting for IT troubleshooting. | macOS |
+| **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analysis, connection-health diagnostics, access-point ranking, roaming insights, and privacy-aware PDF/CSV reports. | Windows / macOS / Linux · .NET / Avalonia |
+| **[StashVideos](https://github.com/hov172/StashVideos)** | Native macOS frontend for yt-dlp, with a streamlined interface for media downloads and release distribution. | macOS |
 
 ## 🧭 Explore by Category
 
