@@ -42,7 +42,6 @@ Selected tools, integrations, and software releases. Some repositories provide s
 | **[WindowsNetworkPrinterSharedUtility](https://github.com/hov172/WindowsNetworkPrinterSharedUtility)** | A modern, user-friendly Windows application for installing network printers from a print server. Built with .NET 8.0 WPF and Material Design. No admin rights required! The App should detect and show your network share home drive by default, If no network share is detected it will save to user desktop folder. | Windows | Networking | May 7, 2026 |
 | **[BurnToast_Notification_Studio](https://github.com/hov172/BurnToast_Notification_Studio)** | A Windows desktop application for designing and testing Windows toast notifications using the BurntToast PowerShell module. | Windows / PowerShell | Desktop Utilities | May 7, 2026 |
 | **[Win-Bookmarks-Backup-Tool](https://github.com/hov172/Win-Bookmarks-Backup-Tool)** | Optional HTML-only mode: - GUI: checkbox - CLI: --html | Windows | Desktop Utilities | May 7, 2026 |
-| **[librealsense](https://github.com/hov172/librealsense)** | We are happy to announce that the RealSense GitHub repositories have been successfully migrated to the RealSenseAI organization. Please make sure to update your links to the new RealSenseAI organization for both cloning the repositories and accessing specific files within them. | C++ | Desktop Utilities | Apr 13, 2026 |
 
 <!-- FEATURED:END -->
 

@@ -9,6 +9,7 @@ from datetime import datetime
 
 README = "README.md"
 OWNER = "hov172"
+EXCLUDED = {"librealsense"}
 START = "<!-- FEATURED:START -->"
 END = "<!-- FEATURED:END -->"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -33,7 +34,7 @@ def public_repositories():
         url = f"https://api.github.com/users/{OWNER}/repos?type=owner&per_page=100&page={page}"
         batch = get_json(url)
         for repo in batch:
-            if not repo.get("private") and repo["name"].lower() != OWNER.lower():
+            if not repo.get("private") and repo["name"].lower() != OWNER.lower() and repo["name"].lower() not in EXCLUDED:
                 yield repo
         if len(batch) < 100:
             break
