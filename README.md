@@ -17,10 +17,10 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
+| **[autopkg-recipes](https://github.com/hov172/autopkg-recipes)** | AutoPkg recipes that download and verify Ayala Solutions apps for automated deployment through Munki, Jamf Pro, and Intune. | AutoPkg / YAML | Deployment | Nov 7, 2026 |
 | **[StashVideos](https://github.com/hov172/StashVideos)** | macOS and Windows yt-dlp frontend with download queues, quality presets, playlist selection, feed subscriptions, and browser extensions. | macOS / Windows | Desktop Utilities | Nov 7, 2026 |
 | **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | macOS Wi-Fi toolkit for nearby-network scans, signal monitoring, performance testing, coverage mapping, and Help Desk-ready diagnostic reports. | macOS | Networking | Nov 5, 2026 |
 | **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analyzer for Windows, macOS, and Linux with channel intelligence, connection-health diagnostics, AP analysis, and exportable reports. | Windows / macOS / Linux · .NET / Avalonia | Networking | Nov 5, 2026 |
-| **[autopkg-recipes](https://github.com/hov172/autopkg-recipes)** | AutoPkg recipes that download and verify Ayala Solutions apps for automated deployment through Munki, Jamf Pro, and Intune. | AutoPkg / YAML | Deployment | Nov 3, 2026 |
 | **[secure-webapp-skill](https://github.com/hov172/secure-webapp-skill)** | secure-webapp is a Claude/Codex/Gemini skill for applying practical security guidance while building, editing, reviewing, or hardening web applications. It also works with any other AI agent that loads skills from a directory or reads an AGENTS.md / GEMINI.md instruction file. | Python | Security | Nov 2, 2026 |
 | **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM to AI assistants for natural-language fleet audits, inventory queries, reporting, and optional guarded device actions. | TypeScript / Node.js | AI & Automation | Nov 2, 2026 |
 | **[BonjourView](https://github.com/hov172/BonjourView)** | Native macOS Bonjour/mDNS browser with live service discovery, host and port details, TXT-record inspection, and export tools. | macOS / Swift | Networking | Oct 31, 2026 |
