@@ -83,7 +83,9 @@ def category(repo):
         return "Networking"
     if any(term in combined for term in ("mdm", "munki", "endpoint", "device management")):
         return "Endpoint Management"
-    if any(term in combined for term in ("mcp", "ai assistant", "automation")):
+    if any(term in combined for term in ("backup", "bookmark")):
+        return "Desktop Utilities"
+    if any(term in combined for term in ("mcp", "ai assistant")):
         return "AI & Automation"
     if any(term in combined for term in ("autopkg", "homebrew", "signing", "notariz", "deployment")):
         return "Deployment"
