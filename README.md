@@ -17,7 +17,7 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
-| **[StashVideos](https://github.com/hov172/StashVideos)** | macOS and Windows yt-dlp frontend with download queues, quality presets, playlist selection, feed subscriptions, and browser extensions. | macOS / Windows | Desktop Utilities | Nov 10, 2026 |
+| **[StashVideos](https://github.com/hov172/StashVideos)** | macOS and Windows yt-dlp frontend with download queues, quality presets, playlist selection, feed subscriptions, and browser extensions. | macOS / Windows | Desktop Utilities | Nov 11, 2026 |
 | **[BurnToast_Notification_Studio](https://github.com/hov172/BurnToast_Notification_Studio)** | A Windows desktop application for designing and testing Windows toast notifications using the BurntToast PowerShell module. | Windows / PowerShell | Desktop Utilities | Nov 10, 2026 |
 | **[WindowsNetworkPrinterSharedUtility](https://github.com/hov172/WindowsNetworkPrinterSharedUtility)** | A modern, user-friendly Windows application for installing network printers from a print server. Built with .NET 8.0 WPF and Material Design. No admin rights required! The App should detect and show your network share home drive by default, If no network share is detected it will save to user desktop folder. | Windows | Networking | Nov 10, 2026 |
 | **[MacOS-Bookmarks-Backup-Tool](https://github.com/hov172/MacOS-Bookmarks-Backup-Tool)** | macOS utility that backs up, restores, and migrates browser bookmarks, with a GUI plus a CLI for scheduled and automated exports. | macOS | Desktop Utilities | Nov 10, 2026 |
