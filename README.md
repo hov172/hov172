@@ -17,6 +17,7 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
+| **[ITHub](https://github.com/hov172/ITHub)** | Configurable macOS menu bar IT dashboard for FileVault, storage, battery, updates, and network health, plus MDM-managed support actions. | macOS / Swift | Endpoint Management | Nov 12, 2026 |
 | **[StashVideos](https://github.com/hov172/StashVideos)** | macOS and Windows yt-dlp frontend with download queues, quality presets, playlist selection, feed subscriptions, and browser extensions. | macOS / Windows | Desktop Utilities | Nov 11, 2026 |
 | **[BurnToast_Notification_Studio](https://github.com/hov172/BurnToast_Notification_Studio)** | A Windows desktop application for designing and testing Windows toast notifications using the BurntToast PowerShell module. | Windows / PowerShell | Desktop Utilities | Nov 10, 2026 |
 | **[WindowsNetworkPrinterSharedUtility](https://github.com/hov172/WindowsNetworkPrinterSharedUtility)** | A modern, user-friendly Windows application for installing network printers from a print server. Built with .NET 8.0 WPF and Material Design. No admin rights required! The App should detect and show your network share home drive by default, If no network share is detected it will save to user desktop folder. | Windows | Networking | Nov 10, 2026 |
@@ -33,7 +34,6 @@ Selected tools, integrations, and software releases. Some repositories provide s
 | **[autopkg-recipes](https://github.com/hov172/autopkg-recipes)** | AutoPkg recipes that download and verify Ayala Solutions apps for automated deployment through Munki, Jamf Pro, and Intune. | AutoPkg / YAML | Deployment | Nov 7, 2026 |
 | **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM to AI assistants for natural-language fleet audits, inventory queries, reporting, and optional guarded device actions. | TypeScript / Node.js | AI & Automation | Nov 2, 2026 |
 | **[BonjourView](https://github.com/hov172/BonjourView)** | Native macOS Bonjour/mDNS browser with live service discovery, host and port details, TXT-record inspection, and export tools. | macOS / Swift | Networking | Oct 31, 2026 |
-| **[ITHub](https://github.com/hov172/ITHub)** | Configurable macOS menu bar IT dashboard for FileVault, storage, battery, updates, and network health, plus MDM-managed support actions. | macOS / Swift | Endpoint Management | Oct 30, 2026 |
 | **[as-authenticator-vault](https://github.com/hov172/as-authenticator-vault)** | Privacy policy and support for the AS Authenticator Vault app | macOS / iOS / Android | Security | Oct 27, 2026 |
 | **[homebrew-displayhelp](https://github.com/hov172/homebrew-displayhelp)** | Homebrew tap that installs the signed and notarized DisplayHelp package into /Applications. | Ruby | Deployment | Oct 24, 2026 |
 | **[homebrew-signaro](https://github.com/hov172/homebrew-signaro)** | Homebrew tap that installs Signaro.app and its signarocli command-line tool. | Ruby | Deployment | Oct 10, 2026 |
