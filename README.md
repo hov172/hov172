@@ -17,6 +17,7 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
+| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native SimpleMDM client for macOS, iOS, iPadOS, and visionOS featuring fleet dashboards, bulk device operations, and an API explorer. | macOS / iOS / iPadOS / visionOS | Endpoint Management | Nov 15, 2026 |
 | **[AS-Authenticator-Browser-Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions)** | Cross-browser two-factor authenticator with encrypted vaults, TOTP/HOTP and Steam Guard codes, autofill, backups, and multilingual support. | Browser Extensions | Security | Nov 15, 2026 |
 | **[as-authenticator-vault](https://github.com/hov172/as-authenticator-vault)** | Privacy policy and support for the AS Authenticator Vault app | macOS / iOS / Android | Security | Nov 15, 2026 |
 | **[ITHub](https://github.com/hov172/ITHub)** | Configurable macOS menu bar IT dashboard for FileVault, storage, battery, updates, and network health, plus MDM-managed support actions. | macOS / Swift | Endpoint Management | Nov 12, 2026 |
@@ -28,7 +29,6 @@ Selected tools, integrations, and software releases. Some repositories provide s
 | **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analyzer for Windows, macOS, and Linux with channel intelligence, connection-health diagnostics, AP analysis, and exportable reports. | Windows / macOS / Linux · .NET / Avalonia | Networking | Nov 10, 2026 |
 | **[TalkAnywhere](https://github.com/hov172/TalkAnywhere)** | iOS translator supporting speech, text, camera translation, and two-person Bluetooth earbud conversations, with on-device processing where supported. | iOS | Mobile Apps | Nov 10, 2026 |
 | **[Signaro](https://github.com/hov172/Signaro)** | Privacy-first macOS signing and notarization toolkit with DMG creation, iOS IPA re-signing, certificate management, and GUI/CLI workflows. | macOS | Security & Deployment | Nov 10, 2026 |
-| **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native SimpleMDM client for macOS, iOS, iPadOS, and visionOS featuring fleet dashboards, bulk device operations, and an API explorer. | macOS / iOS / iPadOS / visionOS | Endpoint Management | Nov 10, 2026 |
 | **[MacNetworkPrinters](https://github.com/hov172/MacNetworkPrinters)** | macOS SwiftUI app that discovers and installs network printers from SMB and IPP print servers, with driver mapping and configuration-profile support. | macOS | Networking | Nov 10, 2026 |
 | **[DisplayHelp](https://github.com/hov172/DisplayHelp)** | macOS menu bar utility that remembers room-specific display setups, restores mirror/extend configurations, and helps troubleshoot projectors, TVs, and external monitors. | macOS | Endpoint Management | Nov 10, 2026 |
 | **[secure-webapp-skill](https://github.com/hov172/secure-webapp-skill)** | Claude/Codex/Gemini skill that applies OWASP-grounded security guidance while building, reviewing, or hardening web applications. | Python | Security | Nov 9, 2026 |
