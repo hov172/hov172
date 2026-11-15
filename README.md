@@ -17,7 +17,8 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
-| **[AS-Authenticator-Browser-Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions)** | Cross-browser two-factor authenticator with encrypted vaults, TOTP/HOTP and Steam Guard codes, autofill, backups, and multilingual support. | Browser Extensions | Security | Nov 12, 2026 |
+| **[AS-Authenticator-Browser-Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions)** | Cross-browser two-factor authenticator with encrypted vaults, TOTP/HOTP and Steam Guard codes, autofill, backups, and multilingual support. | Browser Extensions | Security | Nov 15, 2026 |
+| **[as-authenticator-vault](https://github.com/hov172/as-authenticator-vault)** | Privacy policy and support for the AS Authenticator Vault app | macOS / iOS / Android | Security | Nov 15, 2026 |
 | **[ITHub](https://github.com/hov172/ITHub)** | Configurable macOS menu bar IT dashboard for FileVault, storage, battery, updates, and network health, plus MDM-managed support actions. | macOS / Swift | Endpoint Management | Nov 12, 2026 |
 | **[StashVideos](https://github.com/hov172/StashVideos)** | macOS and Windows yt-dlp frontend with download queues, quality presets, playlist selection, feed subscriptions, and browser extensions. | macOS / Windows | Desktop Utilities | Nov 11, 2026 |
 | **[BurnToast_Notification_Studio](https://github.com/hov172/BurnToast_Notification_Studio)** | A Windows desktop application for designing and testing Windows toast notifications using the BurntToast PowerShell module. | Windows / PowerShell | Desktop Utilities | Nov 10, 2026 |
@@ -34,7 +35,6 @@ Selected tools, integrations, and software releases. Some repositories provide s
 | **[autopkg-recipes](https://github.com/hov172/autopkg-recipes)** | AutoPkg recipes that download and verify Ayala Solutions apps for automated deployment through Munki, Jamf Pro, and Intune. | AutoPkg / YAML | Deployment | Nov 7, 2026 |
 | **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM to AI assistants for natural-language fleet audits, inventory queries, reporting, and optional guarded device actions. | TypeScript / Node.js | AI & Automation | Nov 2, 2026 |
 | **[BonjourView](https://github.com/hov172/BonjourView)** | Native macOS Bonjour/mDNS browser with live service discovery, host and port details, TXT-record inspection, and export tools. | macOS / Swift | Networking | Oct 31, 2026 |
-| **[as-authenticator-vault](https://github.com/hov172/as-authenticator-vault)** | Privacy policy and support for the AS Authenticator Vault app | macOS / iOS / Android | Security | Oct 27, 2026 |
 | **[homebrew-displayhelp](https://github.com/hov172/homebrew-displayhelp)** | Homebrew tap that installs the signed and notarized DisplayHelp package into /Applications. | Ruby | Deployment | Oct 24, 2026 |
 | **[homebrew-signaro](https://github.com/hov172/homebrew-signaro)** | Homebrew tap that installs Signaro.app and its signarocli command-line tool. | Ruby | Deployment | Oct 10, 2026 |
 | **[rhino_mcp](https://github.com/hov172/rhino_mcp)** | MCP integration connecting Rhino 3D to AI assistants for geometry editing, Grasshopper workflows, rendering, and document-driven 3D design. | Python / MCP | AI & Automation | Oct 5, 2026 |
