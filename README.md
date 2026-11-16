@@ -17,9 +17,9 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
+| **[as-authenticator-vault](https://github.com/hov172/as-authenticator-vault)** | Privacy policy and support for the AS Authenticator Vault app | macOS / iOS / Android | Security | Nov 16, 2026 |
 | **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native SimpleMDM client for macOS, iOS, iPadOS, and visionOS featuring fleet dashboards, bulk device operations, and an API explorer. | macOS / iOS / iPadOS / visionOS | Endpoint Management | Nov 15, 2026 |
 | **[AS-Authenticator-Browser-Extensions](https://github.com/hov172/AS-Authenticator-Browser-Extensions)** | Cross-browser two-factor authenticator with encrypted vaults, TOTP/HOTP and Steam Guard codes, autofill, backups, and multilingual support. | Browser Extensions | Security | Nov 15, 2026 |
-| **[as-authenticator-vault](https://github.com/hov172/as-authenticator-vault)** | Privacy policy and support for the AS Authenticator Vault app | macOS / iOS / Android | Security | Nov 15, 2026 |
 | **[ITHub](https://github.com/hov172/ITHub)** | Configurable macOS menu bar IT dashboard for FileVault, storage, battery, updates, and network health, plus MDM-managed support actions. | macOS / Swift | Endpoint Management | Nov 12, 2026 |
 | **[StashVideos](https://github.com/hov172/StashVideos)** | macOS and Windows yt-dlp frontend with download queues, quality presets, playlist selection, feed subscriptions, and browser extensions. | macOS / Windows | Desktop Utilities | Nov 11, 2026 |
 | **[BurnToast_Notification_Studio](https://github.com/hov172/BurnToast_Notification_Studio)** | A Windows desktop application for designing and testing Windows toast notifications using the BurntToast PowerShell module. | Windows / PowerShell | Desktop Utilities | Nov 10, 2026 |
