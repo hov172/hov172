@@ -17,9 +17,9 @@ Selected tools, integrations, and software releases. Some repositories provide s
 
 | Project | What it does | Platform | Category | Updated |
 |---|---|---|---|---|
+| **[TalkAnywhere](https://github.com/hov172/TalkAnywhere)** | iOS translator supporting speech, text, camera translation, and two-person Bluetooth earbud conversations, with on-device processing where supported. | iOS | Mobile Apps | Nov 19, 2026 |
 | **[WinWiFiAnalyzer](https://github.com/hov172/WinWiFiAnalyzer)** | Cross-platform Wi-Fi analyzer for Windows, macOS, and Linux with channel intelligence, connection-health diagnostics, AP analysis, and exportable reports. | Windows / macOS / Linux · .NET / Avalonia | Networking | Nov 18, 2026 |
 | **[WifDiagReport](https://github.com/hov172/WifDiagReport)** | macOS Wi-Fi toolkit for nearby-network scans, signal monitoring, performance testing, coverage mapping, and Help Desk-ready diagnostic reports. | macOS | Networking | Nov 18, 2026 |
-| **[TalkAnywhere](https://github.com/hov172/TalkAnywhere)** | iOS translator supporting speech, text, camera translation, and two-person Bluetooth earbud conversations, with on-device processing where supported. | iOS | Mobile Apps | Nov 17, 2026 |
 | **[secure-webapp-skill](https://github.com/hov172/secure-webapp-skill)** | Claude/Codex/Gemini skill that applies OWASP-grounded security guidance while building, reviewing, or hardening web applications. | Python | Security | Nov 16, 2026 |
 | **[SimpleMDM-MCP](https://github.com/hov172/SimpleMDM-MCP)** | MCP server connecting SimpleMDM to AI assistants for natural-language fleet audits, inventory queries, reporting, and optional guarded device actions. | TypeScript / Node.js | AI & Automation | Nov 16, 2026 |
 | **[Report-SimpleMDM](https://github.com/hov172/Report-SimpleMDM)** | Native SimpleMDM client for macOS, iOS, iPadOS, and visionOS featuring fleet dashboards, bulk device operations, and an API explorer. | macOS / iOS / iPadOS / visionOS | Endpoint Management | Nov 16, 2026 |
